@@ -1,0 +1,64 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good morning", "Good afternoon", "Hi there",
+        "hello", "hi", "hey", "greetings", "good day", "welcome"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! Welcome to our support center.",
+        "Greetings! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "How much does it cost", "What are your prices", "Pricing", "Cost of service", "How much",
+        "price", "cost", "fee", "subscription", "plan", "tier", "rate"
+      ],
+      "responses": [
+        "Our basic plan starts at $10/month.",
+        "We offer three tiers: Basic, Pro, and Enterprise.",
+        "Please check our pricing page for the latest rates."
+      ]
+    },
+    {
+      "tag": "support",
+      "patterns": [
+        "I need help", "Something is broken", "Error", "Issue", "Technical support",
+        "help me", "problem", "bug", "not working", "fix", "troubleshoot"
+      ],
+      "responses": [
+        "I'm sorry to hear that. Please describe the issue.",
+        "Our technical team is ready to help. What is the error message?",
+        "Let's troubleshoot this together. Which feature is acting up?"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "When are you open", "Business hours", "Opening time", "Hours of operation",
+        "open time", "close time", "schedule", "availability", "working hours"
+      ],
+      "responses": [
+        "We are open Monday to Friday, 9 AM to 5 PM.",
+        "Our support hours are 9 AM - 5 PM EST.",
+        "We are available during standard business hours."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you", "Thanks", "Thank you",
+        "bye", "goodbye", "see you later", "thanks", "thank you", "appreciate it"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "Thanks for chatting with us. Goodbye!",
+        "Take care! Feel free to return if you need more help."
+      ]
+    }
+  ]
+}
