@@ -49,7 +49,7 @@ pip install -r requirements.txt
 Run the chatbot using:
 
 ```
-python app.py
+streamlit run app.py
 ```
 
 Type your question in the terminal and the chatbot will respond with the closest matching answer.
@@ -71,3 +71,4 @@ Type your question in the terminal and the chatbot will respond with the closest
 
 **Nandakishore**
 GitHub: https://github.com/NANDAKISHORE58
+
